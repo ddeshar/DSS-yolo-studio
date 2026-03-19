@@ -1,0 +1,11 @@
+names:
+  0: 1-baht
+  1: 10-baht
+  2: 2-baht
+  3: 25-satang
+  4: 5-baht
+  5: 50-satang
+nc: 6
+test: combined_thai_coin/images/test
+train: combined_thai_coin/images/train
+val: combined_thai_coin/images/val
