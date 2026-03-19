@@ -1,0 +1,9 @@
+icrawler
+duckduckgo-search
+pillow
+tqdm
+requests
+ultralytics
+opencv-python
+python-dotenv
+flask

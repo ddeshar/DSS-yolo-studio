@@ -1,0 +1,19 @@
+services:
+  label-studio:
+    image: heartexlabs/label-studio:latest
+    container_name: label-studio
+    network_mode: bridge
+    ports:
+      - "8080:8080"
+    environment:
+      # Allow Label Studio to serve files from the mounted local folder
+      - LABEL_STUDIO_LOCAL_FILES_SERVING_ENABLED=true
+      - LABEL_STUDIO_LOCAL_FILES_DOCUMENT_ROOT=/label-studio/files
+    volumes:
+      # Persist Label Studio DB, projects, and settings across restarts
+      - label-studio-data:/label-studio/data
+      # Mount your cleaned images as read-only into Label Studio's file root
+      - ./data/clean:/label-studio/files:ro
+
+volumes:
+  label-studio-data:

@@ -1,0 +1,25 @@
+[
+  {
+    "name": "dog",
+    "keywords": [
+      "dog",
+      "dog sitting",
+      "dog running",
+      "dog walking on leash",
+      "dog lying down",
+      "dog in park",
+      "dog on street",
+      "dog close up portrait",
+      "golden retriever",
+      "labrador dog",
+      "german shepherd dog",
+      "bulldog",
+      "husky dog",
+      "poodle dog"
+    ],
+    "sources": {
+      "bing": 120,
+      "duckduckgo": 80
+    }
+  }
+]

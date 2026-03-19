@@ -1,0 +1,40 @@
+# Git metadata
+.git
+.gitignore
+.dockerignore
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Large local data and outputs
+data/raw/
+data/clean/
+dataset/
+exported_labels/
+runs/
+model/*.pt
+model/*.onnx
+*.zip
+
+# Logs and temp
+*.log
+tmp/
+temp/
